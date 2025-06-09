@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+  <meta name="viewport", charset="UTF-8", content="width=device-width,inital-scale=1.0">
+  <title>Tienda en linea </title>
+  <title>Tienda en linea </title>
+  <link rel="stylesheet" href="css/estilos">
+  <link rel="stylesheet" href="css/responsive.css"
+</head>
+<body>
+  <header>
+  <h1>
+    Mi tienda
+  </h1>
+  <nav>
+    <ul>
+      <li> <a href="index.html">Inicio</a></li>
+      <li><a href="producctos.html">Productos</a></li>
+      <li><a href="carrito.html"> Carrito</a></li>
+      <li><a href="contacto.html"> Contacto</a></li>
+    </ul>
+  </nav>
+  <section class="busqueda">
+    <input type="text" id="buscador" placeholder="🔍Buscar productos" oninput="filtrar productos()"/>
+  
+    </header>
+  <main>
+    <h2>Bienvenido a nuestra tienda en linea</h2>
+    <p>Encuencuentra los mejores prpductos al mejor precio.</p>
+    <section class="ofertas">
+      <h2>Ofertas del dia </h2>
+      <div class="productos">
+      <figure class="producto"></figure>
+      <img src="imagenes/cel0.web" alt="laptop Gamer"/>
+      <figcaption>
+        <h3>Redmi Note 14 Pro</h3>
+        <p class="description" >Memoria RAM 8 GB-Procesador Mediatek </p>
+        <p class="presio oferta"><del>$15,000.00</del>$12,999.00"</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclik="agregar al carrito('Laptop Gamer,12999"> Agregar al carrito</button>
+      </figcaption>
+      </figure>
+  </div>
+  </section>
+    </main>
+ <footer>
+<p>&copy; 2025 Mi Tienda</p>
+</footer>
+<script src="js/main.js"></script>
+ </body>
+  </html>
+
+  
